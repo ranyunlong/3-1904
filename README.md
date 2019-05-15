@@ -152,3 +152,38 @@ npm run dev
 ```
 
 ### 2. yarn facebook
+
+
+
+# 练习？
+
+1. 编写一个npm 模块 上传到npm 仓库 可以下载使用
+
+例如:你上传了一个 r-m的一个模块
+
+```shell
+npm i r-m
+```
+
+```js
+const i = require('r-m');
+i.run();
+```
+
+2. 使用express 搭建一个服务器
+
+例如： 我向 http://localhost/getuserlist?page=1&size=10
+
+// 意思是返回一个json数据
+res.setHeader('Content-Type', 'appliction/json');
+
+```json
+{
+    "success": true,    // 或者false
+    "page": 1,          // query 里面的page是多少就返回多少
+    "data": [           // size等于多少就返回多少长度的data
+        "xx",
+        "yy"
+    ]
+}
+```
