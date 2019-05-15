@@ -1,0 +1,16 @@
+{
+  "name": "08",
+  "version": "1.0.0",
+  "description": "一个包或者一个项目是由很多个模块组合成的",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ranyunlong-server": "^1.0.1"
+  }
+}
